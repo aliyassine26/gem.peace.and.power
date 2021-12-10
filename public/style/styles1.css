@@ -11,3 +11,21 @@
   top: 3%;
   left: 38%;
   }
+
+  .hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+    #bg-grandient{
+
+      height:1150px;
+    }
+
+    #bg-empty{
+        height:200px;
+      
+    }

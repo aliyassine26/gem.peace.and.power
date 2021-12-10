@@ -11,7 +11,14 @@ module.exports = {
         'moon_date': '#FFBEBE',
 
       },
-
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '90%': '90%',
+        '50%': '50%',
+        '16': '4rem',
+      }
 
     },
   },

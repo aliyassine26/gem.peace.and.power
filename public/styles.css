@@ -21454,6 +21454,10 @@ video {
           box-decoration-break: clone;
 }
 
+.bg-16 {
+  background-size: 4rem;
+}
+
 .bg-auto {
   background-size: auto;
 }
@@ -21464,6 +21468,14 @@ video {
 
 .bg-contain {
   background-size: contain;
+}
+
+.bg-90\% {
+  background-size: 90%;
+}
+
+.bg-50\% {
+  background-size: 50%;
 }
 
 .bg-fixed {
@@ -53754,6 +53766,10 @@ video {
             box-decoration-break: clone;
   }
 
+  .sm\:bg-16 {
+    background-size: 4rem;
+  }
+
   .sm\:bg-auto {
     background-size: auto;
   }
@@ -53764,6 +53780,14 @@ video {
 
   .sm\:bg-contain {
     background-size: contain;
+  }
+
+  .sm\:bg-90\% {
+    background-size: 90%;
+  }
+
+  .sm\:bg-50\% {
+    background-size: 50%;
   }
 
   .sm\:bg-fixed {
@@ -85686,6 +85710,10 @@ video {
             box-decoration-break: clone;
   }
 
+  .md\:bg-16 {
+    background-size: 4rem;
+  }
+
   .md\:bg-auto {
     background-size: auto;
   }
@@ -85696,6 +85724,14 @@ video {
 
   .md\:bg-contain {
     background-size: contain;
+  }
+
+  .md\:bg-90\% {
+    background-size: 90%;
+  }
+
+  .md\:bg-50\% {
+    background-size: 50%;
   }
 
   .md\:bg-fixed {
@@ -117618,6 +117654,10 @@ video {
             box-decoration-break: clone;
   }
 
+  .lg\:bg-16 {
+    background-size: 4rem;
+  }
+
   .lg\:bg-auto {
     background-size: auto;
   }
@@ -117628,6 +117668,14 @@ video {
 
   .lg\:bg-contain {
     background-size: contain;
+  }
+
+  .lg\:bg-90\% {
+    background-size: 90%;
+  }
+
+  .lg\:bg-50\% {
+    background-size: 50%;
   }
 
   .lg\:bg-fixed {
@@ -149550,6 +149598,10 @@ video {
             box-decoration-break: clone;
   }
 
+  .xl\:bg-16 {
+    background-size: 4rem;
+  }
+
   .xl\:bg-auto {
     background-size: auto;
   }
@@ -149560,6 +149612,14 @@ video {
 
   .xl\:bg-contain {
     background-size: contain;
+  }
+
+  .xl\:bg-90\% {
+    background-size: 90%;
+  }
+
+  .xl\:bg-50\% {
+    background-size: 50%;
   }
 
   .xl\:bg-fixed {
@@ -181482,6 +181542,10 @@ video {
             box-decoration-break: clone;
   }
 
+  .\32xl\:bg-16 {
+    background-size: 4rem;
+  }
+
   .\32xl\:bg-auto {
     background-size: auto;
   }
@@ -181492,6 +181556,14 @@ video {
 
   .\32xl\:bg-contain {
     background-size: contain;
+  }
+
+  .\32xl\:bg-90\% {
+    background-size: 90%;
+  }
+
+  .\32xl\:bg-50\% {
+    background-size: 50%;
   }
 
   .\32xl\:bg-fixed {
