@@ -8,6 +8,7 @@ module.exports = {
         'new_color1': '#461F3D',
         'highlight_color1': '#F3CADF',
         'button1': '#C78AA8',
+        'moon_date': '#FFBEBE',
 
       },
 
