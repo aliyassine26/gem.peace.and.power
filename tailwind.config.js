@@ -11,7 +11,8 @@ module.exports = {
         'button2': '#7A199C',
         'moon_date': '#FFBEBE',
         'cart_bg': '#E8EEFF',
-
+        'footer_bg': '#FBE4F7',
+        'color_divide': '#A5A3A3',
       },
       backgroundSize: {
         'auto': 'auto',
@@ -30,8 +31,26 @@ module.exports = {
         '22': '5.5rem',
         '25': '6.25rem',
         '30': '7.5rem',
-      }
+        'footer': '333px',
+      },
+      fontSize: {
+        'copyright': '10px',
+        '28': '1.75rem',
+      },
+      borderRadius: {
+        'none': '0',
+        'sm': '0.125rem',
+        DEFAULT: '0.25rem',
+        DEFAULT: '4px',
+        'md': '0.375rem',
+        'lg': '0.5rem',
+        'full': '9999px',
+        'large': '12px',
 
+        'ali1': '3rem',
+        'ali2': '4rem',
+        'ali3': '5rem',
+      },
     },
   },
   variants: {
