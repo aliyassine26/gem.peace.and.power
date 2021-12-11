@@ -1,6 +1,7 @@
 <html lang="en">
 
 <head>
+    <title>PEACE & POWER</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,12 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css">
     <link rel="stylesheet" href="style/styles1.css">
-    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        $(function () {
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 
 <body>
@@ -173,5 +179,9 @@
 
 
 </body>
+
+<footer>
+    <div id="footer"></div>
+</footer>
 
 </html>
