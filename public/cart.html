@@ -38,61 +38,69 @@
             </div>
         </nav>
     </div>
+
     <!-- Chat page button -->
-    <div class="fixed bottom-0 right-0">
+    <div class="z-10 fixed bottom-0 right-0">
         <img src="images/chat.png" alt="">
     </div>
-
+    <!-- CART Text -->
     <div class=" grid place-items-center text-center">
-        <p class="text-new_color1 text-4xl mt-4">Cart
-        </p>
+        <p class="text-new_color1 text-4xl mt-5">Cart</p>
     </div>
     <!-- BACK BUTTON -->
     <div class="absolute top-20 left-2">
         <img class="relative top-4 " src="images/back.png" alt="">
     </div>
 
-    <div class="flex justify-center items-center mt-4">
-        <div class="h-auto w-4/5 text-center bg-gray-400 rounded-lg">
-            <table class="text-new_color1 w-full ">
+    <div class="flex justify-center items-center mt-9 mb-10">
+        <div class="h-40 w-11/12 text-center justify-center items-center bg-cart_bg rounded-lg ">
+            <table class="text-new_color1 w-full text-xl mt-3">
 
-                <tr>
-                    <td>
-                        <p class="">Subtotal</p>
+
+                <tr class="">
+                    <td class="pl-3">
+                        <p>Subtotal</p>
                     </td>
 
-                    <td class="text-right">
-                        <p class="">$36.50</p>
+                    <td class="text-right pr-8">
+                        <p class="">$26.00</p>
                     </td>
                 </tr>
 
-                <tr>
-                    <td>
+                <tr class="">
+                    <td class="pl-3">
                         <p class="">Tax</p>
                     </td>
 
-                    <td class="text-right">
+                    <td class="text-right pr-8">
                         <p class="">$4.00</p>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>
+                    <td class="pl-3 pb-3">
                         <p class="">Delivery</p>
                     </td>
 
-                    <td class="text-right">
+                    <td class="text-right pr-8">
                         <p class="">$2.00</p>
                     </td>
                 </tr>
 
-                <tr class=" font-bold ">
-                    <td>
-                        <p class="">Total</p>
+
+                <tr class="">
+                    <td colspan=" 3" class="text-white ">
+                        <hr class="" style="height:1px;border:none;color:white;background-color:white;">
                     </td>
 
-                    <td class="text-right">
-                        <p class="">$42.50</p>
+                </tr>
+
+                <tr class=" font-bold ">
+                    <td class="pl-3 pt-2 ">
+                        <p class="">Total</p>
+                    </td>
+                    <td class="text-right pr-8">
+                        <p class="">$32.00</p>
                     </td>
                 </tr>
 
@@ -101,7 +109,97 @@
     </div>
 
 
+    <div class="  grid place-items-center ">
 
+
+        <!-- Item 1 -->
+
+        <div class="w-11/12 h-30 bg-gradient-to-r from-new1 to-new2 rounded-full mb-6">
+
+
+            <table class="text-button2  w-full">
+                <tr class="h-full w-full ">
+
+                    <td class="pb-1 pl-7 "><img src="images/opal-ring.png" alt="" class=" h-22 w-25 "></td>
+
+                    <td class="pl-5 w-2/4 ">
+                        <table class="text-button2 ">
+                            <tr>
+                                <td class="py-2.5 font-bold text-xl ">Opal Ring</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="minus" class=" bg-white rounded-full h-6 w-6">-</button>
+                                    <input type=" text" class="rounded-full w-16 text-center " placeholder="1">
+                                    <button id="plus" class=" bg-white rounded-full h-6 w-6">+</button>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class="py-2.5  text-lg ">Price: 14.00$</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class=" w-2/12 relative right-0 top-0"><img src="images/close.png" alt=""
+                            class="absolute right-2 bottom-11">
+                    </td>
+
+                </tr>
+
+            </table>
+
+
+        </div>
+        <!-- End of Item 1 -->
+
+        <!-- Item 2 -->
+        <div class="w-11/12 h-30 bg-gradient-to-r from-new1 to-new2 rounded-full ">
+
+
+            <table class="text-button2  w-full">
+                <tr class="h-full w-full ">
+
+                    <td class="pb-1 pl-7 "><img src="images/jade.png" alt="" class=" h-22 w-25 "></td>
+
+                    <td class="pl-5 w-2/4 ">
+                        <table class="text-button2 ">
+                            <tr>
+                                <td class="py-2.5 font-bold text-xl ">Raw Jade
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="w-full">
+                                    <button id="minus" class=" bg-white rounded-full h-6 w-6">-</button>
+                                    <input type=" text" class="rounded-full w-16 text-center " placeholder="1">
+                                    <button id="plus" class=" bg-white rounded-full h-6 w-6">+</button>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class="py-2.5  text-lg ">Price: 12.00$</td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class=" w-2/12 relative right-0 top-0"><img src="images/close.png" alt=""
+                            class="absolute right-2 bottom-11">
+                    </td>
+
+                </tr>
+
+            </table>
+
+
+        </div>
+
+        <!-- End of element 2  -->
+
+
+    </div>
+
+    <div class=" grid place-items-center mt-10">
+        <button class="rounded-full bg-button2 w-1/2 h-12 text-xl text-white">Checkout</button>
+    </div>
+    <br>
 </body>
 
 </html>
