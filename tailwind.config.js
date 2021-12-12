@@ -13,6 +13,8 @@ module.exports = {
         'cart_bg': '#E8EEFF',
         'footer_bg': '#FBE4F7',
         'color_divide': '#A5A3A3',
+        'temp1': '#EFDBE6',
+        'temp2': '#E9DBE9',
       },
       backgroundSize: {
         'auto': 'auto',
@@ -33,10 +35,19 @@ module.exports = {
         '30': '7.5rem',
         'footer': '333px',
       },
+
       fontSize: {
         'copyright': '10px',
         '28': '1.75rem',
       },
+
+      fontFamily: {
+
+        Ogg: ['Ogg'],
+        Heebo: ['Heebo'],
+        Bigilla: ['Bigilla'],
+      },
+
       borderRadius: {
         'none': '0',
         'sm': '0.125rem',

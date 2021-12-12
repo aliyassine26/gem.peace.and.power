@@ -7,10 +7,10 @@
     --tw-gradient-to: #ffd8d9;
   }
   
-  #logo_center {
+  /* #logo_center {
   top: 3%;
   left: 38%;
-  }
+  } */ 
 
   .hide-scroll-bar {
     -ms-overflow-style: none;
@@ -33,3 +33,8 @@
     #footer{
         background-size: 100% 100%;
     }
+
+    /* span{
+      background: url("images/highlight.png");
+    
+    } */
