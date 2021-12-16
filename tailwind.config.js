@@ -15,7 +15,7 @@ module.exports = {
         'color_divide': '#A5A3A3',
         'temp1': '#EFDBE6',
         'temp2': '#E9DBE9',
-        'form' : '#F4E9FF',
+        'form': '#F4E9FF',
       },
       backgroundSize: {
         'auto': 'auto',
@@ -29,6 +29,7 @@ module.exports = {
         '22': '5.5rem',
         '25': '6.25rem',
         '30': '7.5rem',
+
       },
       height: {
         '22': '5.5rem',
