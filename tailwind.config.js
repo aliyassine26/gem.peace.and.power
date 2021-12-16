@@ -15,6 +15,7 @@ module.exports = {
         'color_divide': '#A5A3A3',
         'temp1': '#EFDBE6',
         'temp2': '#E9DBE9',
+        'form' : '#F4E9FF',
       },
       backgroundSize: {
         'auto': 'auto',
@@ -46,6 +47,7 @@ module.exports = {
         Ogg: ['Ogg'],
         Heebo: ['Heebo'],
         Bigilla: ['Bigilla'],
+        Soria: ['Soria']
       },
 
       borderRadius: {
