@@ -21,7 +21,7 @@ module.exports = {
             temp1: '#EFDBE6',
             temp2: '#E9DBE9',
             form: '#F4E9FF',
-            shop:'#FFD9D9',
+            shop: '#FFD9D9',
             filters: '#707070',
          },
          backgroundSize: {
@@ -65,6 +65,11 @@ module.exports = {
             lg: '0.5rem',
             full: '9999px',
             large: '12px',
+
+            test1: '1000px',
+            test2: '700px',
+            test3: '500px',
+            test4: '300px',
 
             ali1: '3rem',
             ali2: '4rem',

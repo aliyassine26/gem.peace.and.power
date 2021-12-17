@@ -12,10 +12,6 @@
    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(211, 222, 250, 0));
 }
 
-/* #logo_center {
-  top: 3%;
-  left: 38%;
-  } */
 
 .hide-scroll-bar {
    -ms-overflow-style: none;
@@ -26,7 +22,7 @@
 }
 
 #bg-grandient {
-   height: 1150px;
+   height: 1200px;
 }
 
 #bg-empty {
@@ -37,10 +33,6 @@
    background-size: 100% 100%;
 }
 
-/* span{
-      background: url("images/highlight.png");
-    
-    } */
 
 :is(h1, h2, h3, h4, h5, h6) {
    font-family: Ogg;
@@ -48,4 +40,7 @@
 
 .bg-pale {
    background-color: #fbd9dc;
+}
+#customize {
+   height: 630px;
 }
